@@ -12,3 +12,8 @@ output "private_ip" {
   value       = aws_instance.example.private_ip
   description = "The Private_ip of the Instance"
 }
+
+output "private_dns" {
+  value       = aws_instance.example.private_dns
+  description = "The Private_dns of the Instance"
+}
